@@ -1,0 +1,11 @@
+docker build -t myapppython .
+
+##Above command will create the image, we can give any name
+
+
+docker run -t -i -d -p 8080:80 myapppython
+
+##Above command will launch the image container on local port 8080
+
+#Application could be tested on http://publicIP:8080
+
